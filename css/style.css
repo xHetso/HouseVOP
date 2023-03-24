@@ -1,0 +1,27 @@
+@import "../libs/bootstrap5/bootstrap-reboot.min.css"; /*Normalize tipo*/
+@import "../libs/bootstrap5/bootstrap-grid.min.css"; /*setka bootstrap*/
+@import "../fonts/icomoon/style.css";
+
+.font1{
+    font-family: 'Playfair Display', serif !important;
+}
+
+.font2{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.font3{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.text-accent{
+    color: #D4C17F !important;
+}
+
+body {
+    color: #fff;
+    font-size: 16px;
+    min-width: 280px;
+    background-color: #242B33;
+    overflow-x: hidden;
+}
