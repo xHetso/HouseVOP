@@ -30,14 +30,13 @@
     right: 258px;
     left: unset;
 }
-#facts{
-    padding: 120px 0;
+.section__number_middle{
+    top: 50%;
+    transform:translateY(-50%)
 }
 
-#our__rooms{
-    padding-top: 0;
-    padding-bottom: 0;
-}
+
+
 #cta:before{
     content: "";
     z-index: 0;

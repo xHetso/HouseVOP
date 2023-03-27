@@ -1,3 +1,6 @@
+.brand__main{
+    width: 134px;
+}
 .facts{
     width: 794px;
     max-width: 100%;
@@ -80,4 +83,47 @@
 
 .form-control::placeholder {
 	color: #BEBEBE;
+}
+
+.video{
+    position: relative;
+}
+.video::before{
+    content: '';
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+    background-color: #242B33;
+    opacity: .8;
+    transition: all .09s ease-out;
+}
+
+.video:after{
+    content:'';
+    width:100px;
+    height: 100px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-image: url('../../img/icons/play-button.svg');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position:center;
+    transition: all .09s ease-out;
+}
+
+.video:hover::before{
+    opacity: 0.4;
+}
+
+.video:hover::after{
+    transform: translate(-50%,-50%) scale(1.09);
+}
+
+.map{
+    background-color: #626262;
+    height: 358px;
 }
