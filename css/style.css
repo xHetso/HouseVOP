@@ -62,9 +62,7 @@ img{
     text-decoration: none;
 }
 
-.fz13{
-    font-size: 13px !important;
-}
+
 .d-block{
     display:block !important;
 }
@@ -79,4 +77,18 @@ p{
 }
 .mb-50{
    margin-bottom: 50px; 
+}
+.fz11{
+    font-size: 11px;
+}
+
+@media (max-width:1200px){
+    p{
+        font-size: 14px;
+    }
+}
+@media(min-width: 1200px){
+    .fz-lg-13{
+        font-size: 13px !important;
+    }
 }

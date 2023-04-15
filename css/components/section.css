@@ -28,7 +28,7 @@
 
 .section__number_right{
     right: 258px;
-    left: unset;
+    left: unset !important;
 }
 .section__number_middle{
     top: 50%;
@@ -46,4 +46,14 @@
     width: 100%;
     height: 100%;
     background-image: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9));
+}
+
+@media(max-width: 1500px){
+    .section__number{
+        left:8px;
+    }
+
+    .section__number_right{
+        right:8px;
+    }
 }

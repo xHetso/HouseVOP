@@ -81,3 +81,12 @@
 		transform: translateY(5px);
 	}
 }
+
+@media (max-width: 1200px){
+    .header{
+        min-height: 700px;
+    }
+    .header__contacts{
+        margin-top: 230px;
+    }
+}
