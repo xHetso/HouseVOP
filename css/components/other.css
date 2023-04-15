@@ -1,3 +1,7 @@
+.brand{
+    position: relative;
+    z-index: 10;
+}
 .brand__main{
     width: 134px;
 }
@@ -126,4 +130,13 @@
 .map{
     background-color: #626262;
     height: 358px;
+}
+
+@media (max-width:992px){
+    .form{
+        justify-content: center;
+    }
+    .form__item{
+       width: 100%; 
+    }
 }
