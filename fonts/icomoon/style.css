@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?1ko86m');
-  src:  url('fonts/icomoon.eot?1ko86m#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?1ko86m') format('truetype'),
-    url('fonts/icomoon.woff?1ko86m') format('woff'),
-    url('fonts/icomoon.svg?1ko86m#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?qcxq79');
+  src:  url('fonts/icomoon.eot?qcxq79#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?qcxq79') format('truetype'),
+    url('fonts/icomoon.woff?qcxq79') format('woff'),
+    url('fonts/icomoon.svg?qcxq79#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,15 +27,15 @@
 
 .icon-bench:before {
   content: "\e900";
-  color: #d4c17f;
+  color: #000;
 }
 .icon-bicycle:before {
   content: "\e901";
-  color: #d4c17f;
+  color: #000;
 }
 .icon-building:before {
   content: "\e902";
-  color: #d4c17f;
+  color: #000;
 }
 .icon-facebook:before {
   content: "\e903";
@@ -43,7 +43,7 @@
 }
 .icon-fountain:before {
   content: "\e904";
-  color: #d4c17f;
+  color: #000;
 }
 .icon-instagram:before {
   content: "\e905";
@@ -59,7 +59,7 @@
 }
 .icon-play-button:before {
   content: "\e908";
-  color: #d4c17f;
+  color: #000;
 }
 .icon-vk:before {
   content: "\e909";

@@ -59,3 +59,23 @@
 .footer__social a:hover [class*="icon-"]:before {
 	color: #D4C17F;
 }
+
+
+@media (max-width: 992px) {
+	.footer {
+		text-align: center;
+	}
+
+	.footer .brand {
+		margin-bottom: 30px;
+		display: block;
+	}
+
+	.footer__menu {
+		margin-bottom: 15px !important;
+	}
+
+	.footer__contacts {
+		margin-top: 15px;
+	}
+}
